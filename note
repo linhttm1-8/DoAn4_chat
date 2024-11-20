@@ -1,0 +1,7 @@
+npm install --global yarn
+cd client                      cd server                 yarn start
+yarn                            yarn
+yarn dev                        npx prisma init
+                                npx prisma db push
+                                npx prisma generate
+                                npx prisma studio
